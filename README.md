@@ -1,11 +1,86 @@
-# FRONT-END
-## Hello. Thanks for being a part of this wonderful team.
+# Hello. Thanks for being a part of this wonderful team.
+
+## DESCRIPTION 
+
 We're building <strong>GIGS</strong> - A website where creators of art (e.g: writers, digital creators, etc)can upload their work and make money from it. For the Nigerian and African creator at large.
 
-- To get started, <a href="https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo">fork</a> this repo (this gives you a copy of the repo on your personal github account) <br>
-- To work with this your now personal copy of the repo, <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository">clone</a> the repo to your local PC <br>
-- Feel free to work on and <a href="https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github">push</a> changes to the development branch (or any new branch you <a href="https://zepel.io/blog/how-to-create-a-new-branch-in-github/">create</a>) <br>
-- Upon successful completion of your assigned task, submit a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Pull Request</a> which will then be reviewed by the Team Lead and/or mentors before it is either merged or rejected <br>
+## CONTRIBUTION
+
+- To make a contribution to this awesome repository, You need to follow the following steps to achieve that;
+### 1. Fork this repository
+
+ This is done by clicking on the fork on the top of the page. This will create copy of this repository in your account.
+
+### 2. Clone the repository
+
+ Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied" 
+```
+For example:
+
+```
+git clone https://github.com/this-is-you/your-contributions.git
+```
+
+where `this-is-you` is your GitHub username. Here you're copying the contents of the `pjt-j4-frontend` repository on GitHub to your computer.
+
+## 3. Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd pjt-j4-frontend 
+```
+
+Now create a branch using the `git checkout` command:
+ ```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b mytask
+```
+
+(The name of the branch does not need to have the word _mytask_ in it, but it's a reasonable thing to include because the purpose of this branch is to add your task to the repo.)
+
+## 4. Make necessary changes and commit those changes
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add <your-file> ``` or ``` git add . ``` to add all files.
+```
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Add mytask to the repo"
+```
+
+replacing `mytask` with what you want to use as the commit message but make sure it is reasonable to what you did. 
+
+## 5. Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+## 6. Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+Now submit the pull request.
 
 ### Some extra things to keep in mind while coding
 Write code for:
@@ -17,4 +92,5 @@ Write code for:
 4. Efficiency
 - How fast does this work?
 5. Length
+
 ### <strong>Thank you in advance for contributing to the success of this project!</strong>
