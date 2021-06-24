@@ -9,8 +9,8 @@
 - [Technologies](#technologies)
 - [Frontend Team To-do list](#fontend-team-to-do-lst)
 - [Contributing to the project](#contributing-to-the-project)
-- [Contact the team](#contact-the-team)
 - [Some extra things to keep in mind while coding](#some-extra-things-to-keep-in-mind-while-coding)
+- [Contact the team](#contact-the-team)
 
 ### PROJECT OVERVIEW
 We're building <strong>GIGS</strong> - A website where creators of art (e.g: writers, digital creators, etc)can upload their work and make money from it. For the Nigerian and African creator at large.
@@ -23,13 +23,12 @@ We're building <strong>GIGS</strong> - A website where creators of art (e.g: wri
 - To help African creators reach a wider audience and sell their products to customers around the globe aided by this platform driven by that sole intention.
 
 ### PROJECT FEATURES
-- **An about us page:** To educate users/visitors on what GIGS is all about and how we can help to promote their business thus helping make them more money.
-- **A signup/login feature:** To manage access to the platform, the security of the work displayed and it's overall authenticity, as works will be linked to individual profiles.
-- **A profile feature:** To identify creators and match them with their original work. This can be a portfolio builder and can be tied to other portfolio platforms.
-- **A gallery feature:** To display work of creators registered on the platform in an organised and functional manner.
-- **A search function:** To find the desired work of the preferred creator, find contact details of your favourite creator and keep up with his/her activities.
-- **A market place:** To advertise, promote and sell creators work and services. This should have robust payment functions embedded. 
-
+- An about us page
+- A signup/login feature
+- A profile feature
+- A gallery feature
+- A search function
+- A market place
 
 ### INSTRUCTIONS
 - To get started, <a href="https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo">fork</a> this repo (this gives you a copy of the repo on your personal github account) <br>
@@ -43,13 +42,6 @@ We're building <strong>GIGS</strong> - A website where creators of art (e.g: wri
 - BOOTSTRAP
 - VANILLA JS
 
-### CONTACT THE TEAM
-- @Anumide - alabasamuelayomide3@gmail.com
-- @Sabhayor - ayodejisaberedowo@gmail.com
-- @Philphat - patlyn2020@gmail.com
-- @Adekunle27- malikabdulazeez27@gmail.com
-- @Fiewor - johnfiewor@gmail.com
-
 ### Some extra things to keep in mind while coding
 Write code for:
 1. Readability
@@ -61,3 +53,10 @@ Write code for:
 - How fast does this work?
 5. Length
 ### <strong>Thank you in advance for contributing to the success of this project!</strong>
+
+### CONTACT THE TEAM
+- @Anumide - alabasamuelayomide3@gmail.com
+- @Sabhayor - ayodejisaberedowo@gmail.com
+- @Philphat - patlyn2020@gmail.com
+- @Adekunle27- malikabdulazeez27@gmail.com
+- @Fiewor - johnfiewor@gmail.com
