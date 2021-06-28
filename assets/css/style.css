@@ -78,7 +78,7 @@ div.container{
 }
 
 #header .logo {
-  width: 5%;
+  width: 6%;
 }
 
 #header .logo img {
@@ -353,6 +353,8 @@ div.login_signup{
   color: #fff;
   background: #da370e;
   border-radius: 7px;
+  text-decoration: none;
+  padding: .3em 1em;
 }
 
 #header > div.d-flex.justify-contnet-between.align-items-center > div > span:nth-child(2) a:hover{
@@ -364,7 +366,9 @@ div.login_signup{
 # Hero Section
 --------------------------------------------------------------*/
 #pre-hero {
-  background: url('../img/hero-image.png') no-repeat;
+  background: url(../img/hero-image.png) no-repeat;
+  background-size: cover;
+  margin: 1em 0;
   color: #201e2a;
 }
 
@@ -375,26 +379,36 @@ div.login_signup{
 }
 
 #pre-hero div.pre-hero-div h1{
-  line-height: 1rem;
-  margin: 1em 0;
+  line-height: 4rem;
+  margin: 1em auto .5em auto;
+  font-size: 3rem !important;
 }
 
 #pre-hero div.pre-hero-div p{
   line-height: 2rem;
-  margin: 2em 0
+  margin: 0 auto 2em auto;
+  width: 80%;
+  font-size: 1.5rem !important;
+}
+
+#pre-hero div.pre-hero-div p span.isolated{
+  color: #da370e;
 }
 
 #pre-hero div.pre-hero-links{
   display: flex;
   justify-content: space-between;
+  width: 70%;
+  margin: 1em auto;
 }
 
 #pre-hero div.pre-hero-links span a{
   margin: 2em 0;
-  padding: 1em 3em;
+  padding: .8em 3em;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 8px;
   text-transform: capitalize;
+  font-weight: 600;
 }
 
 #pre-hero div.pre-hero-links span:nth-child(1) a{
@@ -405,13 +419,16 @@ div.login_signup{
 #pre-hero div.pre-hero-links span:nth-child(1) a:hover{
   background: #fff;
   color: #da370e;
-  border-bottom: 1px solid #da370e;
+  border-bottom: 2px solid #da370e;
+  border-left: 2px solid #da370e;
 }
 
 #pre-hero div.pre-hero-links span:nth-child(2) a{
   background: #fff;
   color: #da370e;
-  border-bottom: 1px solid #da370e;
+  border-bottom: 2px solid #da370e;
+  border-left: 2px solid #da370e;
+  padding: .8em 4em;
 }
 
 #pre-hero div.pre-hero-links span:nth-child(2) a:hover{
