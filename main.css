@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gig{
+    background-color: rgb(236, 225, 225);
+}
+.second-nav{
+    background-color: rgb(236, 225, 225);
+}
+.test{
+    display: flex;
+    place-content: space-between;
+}
+
+.test ul li{
+    list-style-type: none;
+    display: inline;
+    
+}
+.test a{
+    text-decoration: none;
+}
+
+.search{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.all{
+    background-color: blanchedalmond;
+    border: 5px;
+}
