@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "lato", "Open Sans";
   color: #fff;
 }
 
@@ -16,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Roboto", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top:hover {
-  background: #85b6cf;
+  background: #201e2a;
   color: #fff;
 }
 
@@ -72,8 +72,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: 60px;
 }
 
+div.container{
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
 #header .logo {
-  width: 10%;
+  width: 5%;
 }
 
 #header .logo img {
@@ -85,8 +90,28 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 90%;
 }
 
+#header form div{
+  padding: .2em 1em;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150%;
+}
+
+#header form div input{
+  border: none;
+  outline: none;
+  font-weight: 600;
+  width: 90%;
+}
+
+#header form div img{
+  width: 7%;
+
+}
+
 .cart{
-  width: 10%;
+  width: 3%;
 }
 
 .cart img{
@@ -103,8 +128,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
+  width: 70%;
 }
 
 .navbar ul {
@@ -126,9 +153,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  background: #fff;
+  color: #201e2a;
 }
 
 .navbar a i, .navbar a:focus i {
@@ -138,7 +166,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a2cce3;
+  color: #da370e;
 }
 
 .navbar .dropdown ul {
@@ -164,7 +192,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #1c3745;
+  color: #201e2a;
 }
 
 .navbar .dropdown ul a i {
@@ -172,7 +200,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #68A4C4;
+  color: #da370e;
 }
 
 .navbar .dropdown:hover > ul {
@@ -300,24 +328,105 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: block;
 }
 
+    /* Login - Signup */
+div.login_signup{
+  text-align: right;
+  width: 20%;
+  justify-content: space-between;
+}
+
+#header > div.d-flex.justify-contnet-between.align-items-center > div > span:nth-child(1) a{
+  color: #201e2a;
+  text-decoration: none;
+  background: transparent;
+  margin: 0 1em;
+  padding: 1em;
+} 
+
+#header > div.d-flex.justify-contnet-between.align-items-center > div > span:nth-child(1) a:hover{
+  color: #fff;
+  background: #da370e;
+  border-radius: 7px;
+}
+
+#header > div.d-flex.justify-contnet-between.align-items-center > div > span:nth-child(2) a{
+  color: #fff;
+  background: #da370e;
+  border-radius: 7px;
+}
+
+#header > div.d-flex.justify-contnet-between.align-items-center > div > span:nth-child(2) a:hover{
+  color: #201e2a;
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
-  height: 90vh;
-  overflow: hidden;
-  position: relative;
+#pre-hero {
+  background: url('../img/hero-image.png') no-repeat;
+  color: #201e2a;
 }
 
-#hero::after {
+#pre-hero div.pre-hero-div{
+  width: 80%;
+  margin: 4em auto;
+  text-align: center;
+}
+
+#pre-hero div.pre-hero-div h1{
+  line-height: 1rem;
+  margin: 1em 0;
+}
+
+#pre-hero div.pre-hero-div p{
+  line-height: 2rem;
+  margin: 2em 0
+}
+
+#pre-hero div.pre-hero-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+#pre-hero div.pre-hero-links span a{
+  margin: 2em 0;
+  padding: 1em 3em;
+  text-align: center;
+  border-radius: 2px;
+  text-transform: capitalize;
+}
+
+#pre-hero div.pre-hero-links span:nth-child(1) a{
+  background: #da370e;
+  color: #fff;
+}
+
+#pre-hero div.pre-hero-links span:nth-child(1) a:hover{
+  background: #fff;
+  color: #da370e;
+  border-bottom: 1px solid #da370e;
+}
+
+#pre-hero div.pre-hero-links span:nth-child(2) a{
+  background: #fff;
+  color: #da370e;
+  border-bottom: 1px solid #da370e;
+}
+
+#pre-hero div.pre-hero-links span:nth-child(2) a:hover{
+  background: #da370e;
+  color: #fff;
+}
+
+/* #hero::after {
   content: '';
   position: absolute;
   left: 50%;
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: #fff;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -335,7 +444,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) translateY(18px) rotate(2deg);
-}
+} */
 
 #hero .carousel-container {
   display: flex;
@@ -377,7 +486,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
