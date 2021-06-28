@@ -1,16 +1,18 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #fff;
 }
 
 a {
-  color: #4fa6d5;
+  color: #fff;
   text-decoration: none;
+  background: #da370e;
 }
 
 a:hover {
-  color: #45beff;
+  color: #da370e;
   text-decoration: none;
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
@@ -27,7 +29,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #68A4C4;
+  background: #da370e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -58,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: #fff;
 }
 
 #header.header-transparent {
@@ -66,29 +68,29 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #fff;
   height: 60px;
 }
 
-#header .logo h1 {
-  font-size: 28px;
-  margin: 0;
-  padding: 4px 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
+#header .logo {
+  width: 10%;
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
+  width: 100%;
+}
+
+    /* search and cart */
+#header .search_cart{
+  width: 90%;
+}
+
+.cart{
+  width: 10%;
+}
+
+.cart img{
+  width: 100%;
 }
 
 #main {
