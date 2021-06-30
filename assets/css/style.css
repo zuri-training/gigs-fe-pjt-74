@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #header {
   height: 80px;
-  transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   background: #fff;
@@ -79,6 +78,10 @@ div.container{
 
 #header .logo {
   width: 6%;
+}
+
+#header .logo a {
+  background: none;
 }
 
 #header .logo img {
@@ -235,7 +238,7 @@ div.container{
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #da370e;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -259,7 +262,7 @@ div.container{
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(17, 38, 48, 0.9);
+  background: rgba(218, 55, 14, .6);
   transition: 0.3s;
 }
 
@@ -285,11 +288,11 @@ div.container{
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1e4356;
+  color: #201e2a;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #68A4C4;
+  color: #100f14;
 }
 
 .navbar-mobile .getstarted {
@@ -321,7 +324,7 @@ div.container{
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #68A4C4;
+  color: #201e2a;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -436,6 +439,22 @@ div.login_signup{
   color: #fff;
 }
 
+#main div.meet{
+  margin: 2em;
+}
+
+#main div.meet h2{
+  color: #000;
+  font-weight: 600;
+  font-family: "lato", sans-serif;
+}
+
+#hero {
+  background: #f5cec5;
+}
+
+
+
 /* #hero::after {
   content: '';
   position: absolute;
@@ -475,7 +494,7 @@ div.login_signup{
   right: 0;
 }
 
-#hero h2 {
+/* #hero h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -488,7 +507,7 @@ div.login_signup{
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
-}
+} */
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -496,9 +515,8 @@ div.login_signup{
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
-  font-size: 48px;
   line-height: 1;
-  width: auto;
+  width: 70%;
   height: auto;
 }
 
@@ -509,20 +527,18 @@ div.login_signup{
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
+  margin: 4em;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #da370e;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
-  color: #fff;
-  text-decoration: none;
+  box-shadow: 2px 2px 6px 1px rgba(00, 00, 00, .6);
+  background: #da370e;
 }
 
 @media (min-width: 1024px) {
